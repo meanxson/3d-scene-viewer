@@ -33,7 +33,7 @@
 				"glfw/src/libglfw3.a"
 			],
 			"targetId" : "glfw::@12507ebf64a5258d241e",
-			"targetIndex" : 2,
+			"targetIndex" : 3,
 			"type" : "target"
 		}
 	],

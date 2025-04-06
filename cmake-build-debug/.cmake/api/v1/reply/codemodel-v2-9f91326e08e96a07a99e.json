@@ -21,7 +21,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -32,7 +33,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-glfw-Debug-bc3debc6d1f472d106ff.json",
+					"jsonFile" : "directory-glfw-Debug-c60489e8d875d8d9fc0e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -42,13 +43,13 @@
 					"source" : "external/glfw",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
 					"build" : "glfw/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-glfw.src-Debug-1cf50170a3c29dd097d9.json",
+					"jsonFile" : "directory-glfw.src-Debug-6fc9c4df9ed8d71440b0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -58,8 +59,8 @@
 					"source" : "external/glfw/src",
 					"targetIndexes" : 
 					[
-						2,
-						4
+						3,
+						5
 					]
 				},
 				{
@@ -85,7 +86,7 @@
 					"source" : "external/glad",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				}
 			],
@@ -105,7 +106,8 @@
 					"name" : "3d_scene_viewer",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -119,9 +121,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2,
 						3,
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -133,7 +135,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				}
 			],
@@ -142,8 +144,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "3d_scene_viewer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-3d_scene_viewer-Debug-c2d2e1e836906e0535ff.json",
+					"jsonFile" : "target-3d_scene_viewer-Debug-cbed5af213dfb56c9374.json",
 					"name" : "3d_scene_viewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ImGui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ImGui-Debug-31e462a2e31fb30f0a85.json",
+					"name" : "ImGui",
 					"projectIndex" : 0
 				},
 				{
