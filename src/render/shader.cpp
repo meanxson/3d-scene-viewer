@@ -1,4 +1,4 @@
-#include "../../includes/shader/shader.h"
+#include "../../includes/render/shader.h"
 
 Shader::Shader(const char *vertexSrc, const char *fragmentSrc) {
     int success;
