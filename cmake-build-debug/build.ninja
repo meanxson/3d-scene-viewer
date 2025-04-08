@@ -56,6 +56,34 @@ build CMakeFiles/3d_scene_viewer.dir/main.cpp.obj: CXX_COMPILER__3d_scene_viewer
   OBJECT_DIR = CMakeFiles\3d_scene_viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\3d_scene_viewer.dir
 
+build CMakeFiles/3d_scene_viewer.dir/src/mesh/Mesh.cpp.obj: CXX_COMPILER__3d_scene_viewer_Debug F$:/Projects/C++/3d-scene-viewer/src/mesh/Mesh.cpp || cmake_object_order_depends_target_3d_scene_viewer
+  DEP_FILE = CMakeFiles\3d_scene_viewer.dir\src\mesh\Mesh.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  INCLUDES = -IF:/Projects/C++/3d-scene-viewer/external/glfw/include -IF:/Projects/C++/3d-scene-viewer/external/glad/include -IF:/Projects/C++/3d-scene-viewer/./external -IF:/Projects/C++/3d-scene-viewer/./external/ImGui
+  OBJECT_DIR = CMakeFiles\3d_scene_viewer.dir
+  OBJECT_FILE_DIR = CMakeFiles\3d_scene_viewer.dir\src\mesh
+
+build CMakeFiles/3d_scene_viewer.dir/src/render/Window.cpp.obj: CXX_COMPILER__3d_scene_viewer_Debug F$:/Projects/C++/3d-scene-viewer/src/render/Window.cpp || cmake_object_order_depends_target_3d_scene_viewer
+  DEP_FILE = CMakeFiles\3d_scene_viewer.dir\src\render\Window.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  INCLUDES = -IF:/Projects/C++/3d-scene-viewer/external/glfw/include -IF:/Projects/C++/3d-scene-viewer/external/glad/include -IF:/Projects/C++/3d-scene-viewer/./external -IF:/Projects/C++/3d-scene-viewer/./external/ImGui
+  OBJECT_DIR = CMakeFiles\3d_scene_viewer.dir
+  OBJECT_FILE_DIR = CMakeFiles\3d_scene_viewer.dir\src\render
+
+build CMakeFiles/3d_scene_viewer.dir/src/command/ExitCommand.cpp.obj: CXX_COMPILER__3d_scene_viewer_Debug F$:/Projects/C++/3d-scene-viewer/src/command/ExitCommand.cpp || cmake_object_order_depends_target_3d_scene_viewer
+  DEP_FILE = CMakeFiles\3d_scene_viewer.dir\src\command\ExitCommand.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  INCLUDES = -IF:/Projects/C++/3d-scene-viewer/external/glfw/include -IF:/Projects/C++/3d-scene-viewer/external/glad/include -IF:/Projects/C++/3d-scene-viewer/./external -IF:/Projects/C++/3d-scene-viewer/./external/ImGui
+  OBJECT_DIR = CMakeFiles\3d_scene_viewer.dir
+  OBJECT_FILE_DIR = CMakeFiles\3d_scene_viewer.dir\src\command
+
+build CMakeFiles/3d_scene_viewer.dir/src/utils/ModelLoader.cpp.obj: CXX_COMPILER__3d_scene_viewer_Debug F$:/Projects/C++/3d-scene-viewer/src/utils/ModelLoader.cpp || cmake_object_order_depends_target_3d_scene_viewer
+  DEP_FILE = CMakeFiles\3d_scene_viewer.dir\src\utils\ModelLoader.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  INCLUDES = -IF:/Projects/C++/3d-scene-viewer/external/glfw/include -IF:/Projects/C++/3d-scene-viewer/external/glad/include -IF:/Projects/C++/3d-scene-viewer/./external -IF:/Projects/C++/3d-scene-viewer/./external/ImGui
+  OBJECT_DIR = CMakeFiles\3d_scene_viewer.dir
+  OBJECT_FILE_DIR = CMakeFiles\3d_scene_viewer.dir\src\utils
+
 build CMakeFiles/3d_scene_viewer.dir/src/render/shader.cpp.obj: CXX_COMPILER__3d_scene_viewer_Debug F$:/Projects/C++/3d-scene-viewer/src/render/shader.cpp || cmake_object_order_depends_target_3d_scene_viewer
   DEP_FILE = CMakeFiles\3d_scene_viewer.dir\src\render\shader.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
@@ -63,12 +91,12 @@ build CMakeFiles/3d_scene_viewer.dir/src/render/shader.cpp.obj: CXX_COMPILER__3d
   OBJECT_DIR = CMakeFiles\3d_scene_viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\3d_scene_viewer.dir\src\render
 
-build CMakeFiles/3d_scene_viewer.dir/src/mesh/Mesh.cpp.obj: CXX_COMPILER__3d_scene_viewer_Debug F$:/Projects/C++/3d-scene-viewer/src/mesh/Mesh.cpp || cmake_object_order_depends_target_3d_scene_viewer
-  DEP_FILE = CMakeFiles\3d_scene_viewer.dir\src\mesh\Mesh.cpp.obj.d
+build CMakeFiles/3d_scene_viewer.dir/src/render/Camera.cpp.obj: CXX_COMPILER__3d_scene_viewer_Debug F$:/Projects/C++/3d-scene-viewer/src/render/Camera.cpp || cmake_object_order_depends_target_3d_scene_viewer
+  DEP_FILE = CMakeFiles\3d_scene_viewer.dir\src\render\Camera.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
   INCLUDES = -IF:/Projects/C++/3d-scene-viewer/external/glfw/include -IF:/Projects/C++/3d-scene-viewer/external/glad/include -IF:/Projects/C++/3d-scene-viewer/./external -IF:/Projects/C++/3d-scene-viewer/./external/ImGui
   OBJECT_DIR = CMakeFiles\3d_scene_viewer.dir
-  OBJECT_FILE_DIR = CMakeFiles\3d_scene_viewer.dir\src\mesh
+  OBJECT_FILE_DIR = CMakeFiles\3d_scene_viewer.dir\src\render
 
 
 # =============================================================================
@@ -78,7 +106,7 @@ build CMakeFiles/3d_scene_viewer.dir/src/mesh/Mesh.cpp.obj: CXX_COMPILER__3d_sce
 #############################################
 # Link the executable 3d_scene_viewer.exe
 
-build 3d_scene_viewer.exe: CXX_EXECUTABLE_LINKER__3d_scene_viewer_Debug CMakeFiles/3d_scene_viewer.dir/main.cpp.obj CMakeFiles/3d_scene_viewer.dir/src/render/shader.cpp.obj CMakeFiles/3d_scene_viewer.dir/src/mesh/Mesh.cpp.obj | glfw/src/libglfw3.a glad/libglad.a libImGui.a glfw/src/libglfw3.a glad/libglad.a || glad/libglad.a glfw/src/libglfw3.a libImGui.a
+build 3d_scene_viewer.exe: CXX_EXECUTABLE_LINKER__3d_scene_viewer_Debug CMakeFiles/3d_scene_viewer.dir/main.cpp.obj CMakeFiles/3d_scene_viewer.dir/src/mesh/Mesh.cpp.obj CMakeFiles/3d_scene_viewer.dir/src/render/Window.cpp.obj CMakeFiles/3d_scene_viewer.dir/src/command/ExitCommand.cpp.obj CMakeFiles/3d_scene_viewer.dir/src/utils/ModelLoader.cpp.obj CMakeFiles/3d_scene_viewer.dir/src/render/shader.cpp.obj CMakeFiles/3d_scene_viewer.dir/src/render/Camera.cpp.obj | glfw/src/libglfw3.a glad/libglad.a libImGui.a glfw/src/libglfw3.a glad/libglad.a || glad/libglad.a glfw/src/libglfw3.a libImGui.a
   FLAGS = -g
   LINK_LIBRARIES = glfw/src/libglfw3.a  glad/libglad.a  libImGui.a  glfw/src/libglfw3.a  glad/libglad.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\3d_scene_viewer.dir
@@ -146,20 +174,6 @@ build CMakeFiles/ImGui.dir/external/ImGui/imgui_demo.cpp.obj: CXX_COMPILER__ImGu
   OBJECT_DIR = CMakeFiles\ImGui.dir
   OBJECT_FILE_DIR = CMakeFiles\ImGui.dir\external\ImGui
 
-build CMakeFiles/ImGui.dir/src/render/Window.cpp.obj: CXX_COMPILER__ImGui_Debug F$:/Projects/C++/3d-scene-viewer/src/render/Window.cpp || cmake_object_order_depends_target_ImGui
-  DEP_FILE = CMakeFiles\ImGui.dir\src\render\Window.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  INCLUDES = -IF:/Projects/C++/3d-scene-viewer/./external -IF:/Projects/C++/3d-scene-viewer/./external/ImGui -IF:/Projects/C++/3d-scene-viewer/external/glad/include -IF:/Projects/C++/3d-scene-viewer/external/glfw/include
-  OBJECT_DIR = CMakeFiles\ImGui.dir
-  OBJECT_FILE_DIR = CMakeFiles\ImGui.dir\src\render
-
-build CMakeFiles/ImGui.dir/src/command/ExitCommand.cpp.obj: CXX_COMPILER__ImGui_Debug F$:/Projects/C++/3d-scene-viewer/src/command/ExitCommand.cpp || cmake_object_order_depends_target_ImGui
-  DEP_FILE = CMakeFiles\ImGui.dir\src\command\ExitCommand.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  INCLUDES = -IF:/Projects/C++/3d-scene-viewer/./external -IF:/Projects/C++/3d-scene-viewer/./external/ImGui -IF:/Projects/C++/3d-scene-viewer/external/glad/include -IF:/Projects/C++/3d-scene-viewer/external/glfw/include
-  OBJECT_DIR = CMakeFiles\ImGui.dir
-  OBJECT_FILE_DIR = CMakeFiles\ImGui.dir\src\command
-
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target ImGui
@@ -168,7 +182,7 @@ build CMakeFiles/ImGui.dir/src/command/ExitCommand.cpp.obj: CXX_COMPILER__ImGui_
 #############################################
 # Link the static library libImGui.a
 
-build libImGui.a: CXX_STATIC_LIBRARY_LINKER__ImGui_Debug CMakeFiles/ImGui.dir/external/ImGui/imgui.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/backends/imgui_impl_opengl3.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/imgui_draw.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/imgui_tables.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/imgui_widgets.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/imgui_demo.cpp.obj CMakeFiles/ImGui.dir/src/render/Window.cpp.obj CMakeFiles/ImGui.dir/src/command/ExitCommand.cpp.obj || glad/libglad.a glfw/src/libglfw3.a
+build libImGui.a: CXX_STATIC_LIBRARY_LINKER__ImGui_Debug CMakeFiles/ImGui.dir/external/ImGui/imgui.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/backends/imgui_impl_opengl3.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/imgui_draw.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/imgui_tables.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/imgui_widgets.cpp.obj CMakeFiles/ImGui.dir/external/ImGui/imgui_demo.cpp.obj || glad/libglad.a glfw/src/libglfw3.a
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\ImGui.dir
   POST_BUILD = cd .

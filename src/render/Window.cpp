@@ -29,6 +29,7 @@ Window::Window(int width, int height, const char *title) {
     glfwSetFramebufferSizeCallback(m_window, framebuffer_size_callback);
 
     glEnable(GL_DEPTH_TEST);
+    //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
